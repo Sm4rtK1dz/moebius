@@ -59,7 +59,7 @@ layers_count = len(pics_by_layer)
 def craft_image(image_list):
 
     print(image_list)
-    new_canvas(1867, 1867)
+    new_canvas(457, 458)
 
     for image in image_list:
         set_pixels_of(image)
